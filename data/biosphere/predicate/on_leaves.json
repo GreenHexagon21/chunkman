@@ -1,12 +1,12 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "stepping_on": {
-        "block": {
-          "tag": "minecraft:leaves"
-        }
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "distance": {
+      "horizontal": {
+        "min": 10,
+        "max": 17
       }
     }
   }
-  
+}
