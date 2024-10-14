@@ -1,0 +1,1 @@
+execute at @s in minecraft:overworld run forceload add ~1 ~1 ~-1 ~-1
