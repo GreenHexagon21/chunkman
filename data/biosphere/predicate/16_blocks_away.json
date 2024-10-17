@@ -5,8 +5,8 @@
     "stepping_on": {},
     "distance": {
       "horizontal": {
-        "min": 0,
-        "max": 1
+        "min": 15,
+        "max": 31
       }
     }
   }

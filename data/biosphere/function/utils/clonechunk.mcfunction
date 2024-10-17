@@ -1,2 +1,2 @@
-execute in biosphere:biosphere_dim as @p at @p run clone from minecraft:overworld ~ -64 ~ ~16 256 ~16 to biosphere:biosphere_dim ~-8 -64 ~-8
+execute in biosphere:biosphere_dim as @p at @p align xyz run clone from minecraft:overworld ~ -64 ~ ~15 256 ~15 to biosphere:biosphere_dim ~ -64 ~
 say huuuu
