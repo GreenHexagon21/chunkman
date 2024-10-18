@@ -1,0 +1,1 @@
+execute as @p at @p positioned over world_surface run tp ~ ~ ~
