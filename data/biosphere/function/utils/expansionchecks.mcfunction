@@ -1,4 +1,4 @@
-say expansionchecks
+# say expansionchecks
 execute as @p at @p align xyz if block ~ ~ ~ minecraft:chest{Items:[{Slot:0b,id:"minecraft:polished_andesite",count:64},{Slot:1b,id:"minecraft:polished_granite",count:64},{Slot:2b,id:"minecraft:polished_diorite",count:64}]} run function biosphere:utils/secondexpansioncheck
 execute as @p at @p align xyz if block ~ ~ ~ minecraft:chest{Items:[{Slot:0b,id:"minecraft:polished_andesite",count:64},{Slot:1b,id:"minecraft:polished_diorite",count:64},{Slot:2b,id:"minecraft:polished_granite",count:64}]} run function biosphere:utils/secondexpansioncheck
 execute as @p at @p align xyz if block ~ ~ ~ minecraft:chest{Items:[{Slot:0b,id:"minecraft:polished_granite",count:64},{Slot:1b,id:"minecraft:polished_andesite",count:64},{Slot:2b,id:"minecraft:polished_diorite",count:64}]} run function biosphere:utils/secondexpansioncheck

@@ -1,0 +1,1 @@
+execute as @p at @s if score @s posZ matches 0 if score @s posX matches 0 if dimension biosphere:biosphere_dim align xyz if block ~ ~ ~ minecraft:chest{Items:[{Slot:0b,id:"minecraft:sand",count:64},{Slot:1b,id:"minecraft:sandstone",count:64}]} run function biosphere:utils/biomes/desert_biome_actions
