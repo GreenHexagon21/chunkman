@@ -26,5 +26,5 @@ execute at @s run summon marker ~ ~158 ~ {CustomName:'"chunkmarker"'}
 
 execute as @p at @p run tp @p ~ ~20 ~
 schedule function biosphere:utils/clonechunk 10
-schedule function biosphere:utils/forceloadremove 30
-schedule function biosphere:utils/tptotop 50
+schedule function biosphere:utils/forceloadremove 20
+schedule function biosphere:utils/tptotop 15

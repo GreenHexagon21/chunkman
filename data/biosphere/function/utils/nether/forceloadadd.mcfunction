@@ -1,0 +1,1 @@
+execute at @s in minecraft:the_nether run forceload add ~1 ~1 ~-1 ~-1
